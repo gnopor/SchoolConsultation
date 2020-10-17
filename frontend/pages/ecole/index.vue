@@ -53,6 +53,7 @@ import MjMap from "~/components/Map.vue";
 import FormEcole from "~/components/FormEcole.vue";
 
 export default {
+  middleware: ["fetchClasses"],
   components: {
     MjMap,
   },
@@ -79,15 +80,10 @@ export default {
   computed: {
     center() {
       if (this.ecole.latitude && this.ecole.longitude) {
-        //console.log([this.ecole.latitude, this.ecole.longitude]);
         return [this.ecole.latitude, this.ecole.longitude];
       }
     },
   },
-  created() {
-    /*  console.log(this.$store.getters["ecole/loadedClasses"]); */
-  },
-  watch: {},
 };
 </script>
 
