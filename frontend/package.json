@@ -1,0 +1,22 @@
+{
+  "name": "vutify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.7.1",
+    "nuxt": "^2.14.6",
+    "nuxt-leaflet": "0.0.22",
+    "vue2-leaflet": "^2.5.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

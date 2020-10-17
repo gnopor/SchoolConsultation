@@ -1,0 +1,20 @@
+{
+  "FormEcole": {
+    "description": "Auto imported from components/FormEcole.vue"
+  },
+  "LazyFormEcole": {
+    "description": "Auto imported from components/FormEcole.vue"
+  },
+  "ListEleve": {
+    "description": "Auto imported from components/ListEleve.vue"
+  },
+  "LazyListEleve": {
+    "description": "Auto imported from components/ListEleve.vue"
+  },
+  "Map": {
+    "description": "Auto imported from components/Map.vue"
+  },
+  "LazyMap": {
+    "description": "Auto imported from components/Map.vue"
+  }
+}
