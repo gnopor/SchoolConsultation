@@ -1,6 +1,15 @@
 # School Consultation
 
-## Build Setup
+## Backend development workflow
+
+```bash
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+## Frontend development workflow
 
 ```bash
 # install dependencies
@@ -17,4 +26,3 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
