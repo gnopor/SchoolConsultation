@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/consultation/_id/index.js": "pages/consultation/_id/index.js",
+    "pages/consultation/index.js": "pages/consultation/index.js",
+    "pages/ecole/index.js": "pages/ecole/index.js",
+    "pages/eleve/index.js": "pages/eleve/index.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/consultation/_id/index.js": "pages/consultation/_id/index.js.map",
+    "pages/consultation/index.js": "pages/consultation/index.js.map",
+    "pages/ecole/index.js": "pages/ecole/index.js.map",
+    "pages/eleve/index.js": "pages/eleve/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

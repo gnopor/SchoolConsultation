@@ -3,9 +3,7 @@ export default async function(context) {
   const ecole_id = context.store.getters["ecole/loadedEcole"].id;
   if (!context.store.getters["ecole/loadedClasses"][0]) {
     await axios
-      .get(
-        "http://localhost:8000/schoolResearch/listClasses/?ecole=" + ecole_id
-      )
+      .get(process.env.baseUrl + "/listClasses/?ecole=" + ecole_id)
       .then(result => {
         console.log("[Middleware] Fetch Classes");
         context.store.dispatch("ecole/setClasses", result.data);

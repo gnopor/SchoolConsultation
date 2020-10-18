@@ -69,7 +69,6 @@
 </template>
 
 <script>
-import axios from "axios";
 import Listeleve from "~/components/ListEleve.vue";
 export default {
   middleware: ["fetchEleves", "fetchClasses"],
